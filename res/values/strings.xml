@@ -3,6 +3,8 @@
 
     <string name="app_name">Random Dice</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="dice_result_text">Dice Output</string>
+    <string name="roll_dice_button">ROLL DICE</string>
+    <string name="current_dice_text_view">Current Dice: </string>
 
 </resources>

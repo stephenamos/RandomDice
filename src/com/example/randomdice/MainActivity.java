@@ -1,9 +1,12 @@
 package com.example.randomdice;
 
-import android.os.Bundle;
-import android.app.Activity;
-import android.view.Menu;
+import java.util.Random;
 
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.View;
+import android.widget.TextView;
 public class MainActivity extends Activity {
 
 	@Override
@@ -17,6 +20,13 @@ public class MainActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+	}
+
+	public void rollDice(View view) {
+		TextView result = (TextView) this.findViewById(R.id.diceResultTextView);
+		
+		Integer output = new Random().nextInt(19) + 1;
+		result.setText(output.toString());
 	}
 
 }
