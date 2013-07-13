@@ -8,26 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <Button
-        android:id="@+id/rollDiceButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="35dp"
-        android:padding="40dip"
-        android:text="@string/roll_dice_button" 
-        android:onClick="rollDice" />
-
-    <TextView
-        android:id="@+id/diceResultTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="50sp" />
-
     <TextView
         android:id="@+id/currentDicetextView"
         android:layout_width="wrap_content"
@@ -38,13 +18,23 @@
         android:text="@string/current_dice_text_view"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <TextView
-        android:id="@+id/diceValueTextView"
+    <Button
+        android:id="@+id/rollDiceButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/currentDicetextView"
-        android:layout_alignBottom="@+id/currentDicetextView"
-        android:layout_toRightOf="@+id/currentDicetextView"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="rollDice"
+        android:padding="30dip"
+        android:text="@string/roll_dice_button" />
+
+    <TextView
+        android:id="@+id/diceResultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/currentDicetextView"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
 
 </RelativeLayout>

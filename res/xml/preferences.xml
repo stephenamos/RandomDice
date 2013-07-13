@@ -3,9 +3,9 @@
 
     <EditTextPreference
         EditTextPreference=""
-        android:key="name"
-        android:summary="Enter your name"
-        android:title="EditText" />
+        android:key="dieSidesPreference"
+        android:summary="Enter number of sides (1 to 1000)"
+        android:title="Number of sides: " />
 
     <CheckBoxPreference
         android:defaultValue="True"
