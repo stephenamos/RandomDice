@@ -27,6 +27,10 @@ public class MainActivity extends Activity {
 		SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
 		String dieFromPrefs = preferences.getString("dieSidesPreference", "20");
 		
+		if (dieFromPrefs.isEmpty()) {
+			dieFromPrefs = "1";
+		}
+		
 		TextView diceValueTextView = (TextView) findViewById(R.id.diceValueTextView);
 		diceValueTextView.setText(dieFromPrefs);
 		
@@ -48,6 +52,10 @@ public class MainActivity extends Activity {
 		
 		SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
 		String dieFromPrefs = preferences.getString("dieSidesPreference", "20");
+		
+		if (dieFromPrefs.isEmpty()) {
+			dieFromPrefs = "1";
+		}
 		
 		TextView diceValueTextView = (TextView) findViewById(R.id.diceValueTextView);
 		diceValueTextView.setText(dieFromPrefs);

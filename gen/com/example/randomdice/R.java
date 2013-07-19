@@ -48,6 +48,10 @@ public final class R {
         public static final int current_dice_text_view=0x7f070005;
         public static final int dice_result_text=0x7f070003;
         public static final int dice_settings_value=0x7f070006;
+        public static final int editTextPreferenceSummary=0x7f070009;
+        public static final int editTextPreferenceSummaryErrorHigh=0x7f07000b;
+        public static final int editTextPreferenceSummaryErrorLow=0x7f07000a;
+        public static final int editTextPreferenceTitle=0x7f070008;
         public static final int placeholder=0x7f070007;
         public static final int roll_dice_button=0x7f070004;
     }

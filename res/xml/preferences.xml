@@ -4,8 +4,9 @@
     <EditTextPreference
         EditTextPreference=""
         android:key="dieSidesPreference"
-        android:summary="Enter number of sides (1 to 1000)"
-        android:title="Number of sides: " />
+        android:summary="@string/editTextPreferenceSummary"
+        android:title="@string/editTextPreferenceTitle"
+        android:inputType="number" />
 
     <CheckBoxPreference
         android:defaultValue="True"
