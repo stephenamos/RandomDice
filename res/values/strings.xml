@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+	<string name="author">Stephen Amos - 2013.07.18</string>
     <string name="app_name">Random Dice</string>
     <string name="action_settings">Settings</string>
     <string name="action_exit">Exit</string>

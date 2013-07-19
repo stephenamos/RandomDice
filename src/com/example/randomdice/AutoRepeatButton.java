@@ -8,8 +8,8 @@ import android.widget.Button;
 
 public class AutoRepeatButton extends Button {
 
-	//  private long initialRepeatDelay = 500;
-	private long initialRepeatDelay = 0;
+	private long initialRepeatDelay = 500;
+//	private long initialRepeatDelay = 0;
 	private long repeatIntervalInMilliseconds = 50;
 
 	private Runnable repeatClickWhileButtonHeldRunnable = new Runnable() {

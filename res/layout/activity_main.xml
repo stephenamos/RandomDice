@@ -47,6 +47,12 @@
         android:layout_toRightOf="@+id/currentDicetextView"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-
+    <TextView
+        android:id="@+id/authorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/author" />
 
 </RelativeLayout>
