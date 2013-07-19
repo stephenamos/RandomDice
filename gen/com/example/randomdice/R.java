@@ -53,6 +53,8 @@ public final class R {
         public static final int editTextPreferenceSummaryErrorLow=0x7f07000a;
         public static final int editTextPreferenceTitle=0x7f070008;
         public static final int placeholder=0x7f070007;
+        public static final int preferenceCheckboxHoldDiceSummary=0x7f07000d;
+        public static final int preferenceCheckboxHoldDiceTitle=0x7f07000c;
         public static final int roll_dice_button=0x7f070004;
     }
     public static final class style {

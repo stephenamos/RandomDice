@@ -13,5 +13,8 @@
     <string name="editTextPreferenceSummary">Enter number of sides (1 to 1000) </string>
     <string name="editTextPreferenceSummaryErrorLow">Values over 1000 will default to 1000</string>
     <string name="editTextPreferenceSummaryErrorHigh">Values over 1000 will default to 1000</string>
+    
+    <string name="preferenceCheckboxHoldDiceTitle">Enable hold rolling</string>
+    <string name="preferenceCheckboxHoldDiceSummary">Hold down the roll button to continuously roll your dice</string>
 
 </resources>

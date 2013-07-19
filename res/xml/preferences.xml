@@ -11,8 +11,8 @@
     <CheckBoxPreference
         android:defaultValue="True"
         android:key="checkbox"
-        android:summary="Check this box: "
-        android:title="Checkbox" />
+        android:summary="@string/preferenceCheckboxHoldDiceSummary"
+        android:title="@string/preferenceCheckboxHoldDiceTitle" />
 
     <ListPreference
         android:entries="@array/placeholderarray"
