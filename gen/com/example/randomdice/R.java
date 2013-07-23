@@ -28,14 +28,15 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_exit=0x7f0a0007;
-        public static final int action_settings=0x7f0a0006;
-        public static final int authorTextView=0x7f0a0004;
-        public static final int currentDicetextView=0x7f0a0002;
-        public static final int diceResultTextView=0x7f0a0001;
-        public static final int diceValueTextView=0x7f0a0003;
-        public static final int rollDiceButton=0x7f0a0000;
-        public static final int textView1=0x7f0a0005;
+        public static final int action_exit=0x7f0a0008;
+        public static final int action_settings=0x7f0a0007;
+        public static final int authorTextView=0x7f0a0005;
+        public static final int autoRollDiceButton=0x7f0a0000;
+        public static final int currentDicetextView=0x7f0a0003;
+        public static final int diceResultTextView=0x7f0a0002;
+        public static final int diceValueTextView=0x7f0a0004;
+        public static final int rollDiceButton=0x7f0a0001;
+        public static final int textView1=0x7f0a0006;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
