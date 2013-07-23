@@ -18,14 +18,15 @@
         android:text="@string/current_dice_text_view"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <Button
+    <com.example.randomdice.AutoRepeatButton
         android:id="@+id/rollDiceButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
         android:onClick="rollDice"
-        android:padding="30dip"
+        android:padding="40dip"
         android:text="@string/roll_dice_button" />
 
     <TextView
@@ -36,5 +37,14 @@
         android:layout_centerHorizontal="true"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/diceValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/currentDicetextView"
+        android:layout_alignBottom="@+id/currentDicetextView"
+        android:layout_toRightOf="@+id/currentDicetextView"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>
